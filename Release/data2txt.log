@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/11/29 9:22:58。
+     1>项目“F:\work\C\temp\data2txt\data2txt.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\work\C\temp\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\data2txt.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\data2txt.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\data2txt.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt data2txt.cpp
+         data2txt.cpp
+     1>data2txt.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\work\C\temp\Release\data2txt.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\data2txt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\work\C\temp\Release\data2txt.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\work\C\temp\Release\data2txt.lib" /MACHINE:X86 Release\data2txt.obj
+         Release\stdafx.obj
+     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+         正在生成代码
+         已完成代码的生成
+         data2txt.vcxproj -> F:\work\C\temp\Release\data2txt.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\work\C\temp\Release\data2txt.exe;#1" /manifest Release\data2txt.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\data2txt.unsuccessfulbuild”。
+         正在对“Release\data2txt.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\work\C\temp\data2txt\data2txt.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.46
